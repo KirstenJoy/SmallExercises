@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+body {
+    font-family: sans-serif;
+    background: #f4eeff;
+}
+
+h2 {
+    margin: 5px 0;
+}
+
+#container {
+    width: 800px;
+    margin: 50px auto;
+    background: white;
+    padding: 0;
+    border-radius: 15px 15px 0 0;
+}
+
+#survey {
+    padding: 25px;
+}
+
+.toparea {
+    background: #a8e6cf;
+    border-radius: 15px 15px 0 0;
+    padding: 20px;
+}
+
+.toparea h1 {
+    margin: 0;
+}
+
+#container h1,
+h2 {
+    text-align: center;
+    color: #ffd3b6;
+}
+
+input {
+    margin: 5px 10px;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px;
+    margin: 20px auto;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    border-bottom: 3px solid #333;
+}
+
+#submit {
+    background: #a6dcef;
+}
+
+#reset {
+    background: #e36387;
+}
+
+#answers {
+    border: 1px dashed #ccc;
+    background: #eee;
+    padding: 25px;
+}
+
+#blocked {
+    display: block;
+}

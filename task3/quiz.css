@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+body {
+    background: #f4eeff;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.numbox {
+    width: 80px;
+    margin: 30px;
+    text-align: center;
+    height: 55px;
+    font-size: 2em;
+    border-radius: 4px;
+}
+
+.yell {
+    background: #e0ece4;
+}
+
+.green {
+    background: #9cada4;
+}
+
+.button {
+    width: 180px;
+    height: 40px;
+    background: #588da8;
+    color: #fff;
+    font-size: 1.4em;
+    border-radius: 4px;
+}
+
+.button:hover {
+    color: #9cada4;
+}
+
+.plus {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.hearder {
+    margin: 0;
+}
+
+#goagain {
+    display: none;
+    margin: 25px auto 0;
+}
